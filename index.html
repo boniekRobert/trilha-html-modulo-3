@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,38 +8,145 @@
     <title>Página Principal</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
+    <header>
+        <figure class="logo">
+            <img src="assets/images/logo.png" width="200" alt="Logotipo do site com o nome 'Seu Logo'" />
+        </figure>
 
-    <div>   
-        <div class="logo">
-            <img src="assets/images/logo.png" width="200"/>
-        </div>
-    </div>
+        <div class="bar"></div>
+    </header>
 
-    <div class="bar"></div>
-
-    <div class="content">
-        <div class="sidebar">
-            <h2>Título</h2>
-            <ul>
-                <li><a href="#">Links</a></li>
+    <main class="content">
+        <!--Menu de navegação esquerdo-->
+        <nav class="sidebar" aria-label="Menu de livros de ficção">
+            <h2>Livros de Ficção</h2>
+            <ul class="menu">
+                <li><a href="">Devoradores de Estrelas</a></li>
+                <li><a href="index2.html">Neuromancer</a></li>
+                <li><a href="index3.html">Admirável Mundo Novo</a></li>
+                <li><a href="index4.html">Jogador Nº 1</a></li>
             </ul>
-        </div>
+        </nav>
 
-        <div class="main">
-            
-        </div>
+        <!--Corpo do site-->
+        <section class="main">
+            <h1 id="devoradores">Devoradores de Estrelas</h1>
+            <p>Project Hail Mary (<i>Devoradores de Estrelas</i>, no Brasil) é uma obra de ficção científica americana
+                escrita
+                por <a href="https://pt.wikipedia.org/wiki/Andy_Weir" target="_blank">Andy Weir</a> e publicada em 2021.
+                A narrativa conta a história de Ryland Grace, um professor de ensino
+                médio que precisa encontrar um jeito de salvar a Terra da destruição por seres denominados astrofágicos,
+                que retiram energia do sol.</p>
+            <p>A trama se desenrola a bordo de uma espaçonave enviada a Tau Ceti para descobrir mais sobre os
+                astrofágicos.</p>
 
-        <div class="anchors">
+            <figure id="capa">
+                <img src="assets/images/Devoradores-de-estrelas2.jpg"
+                    alt="Capa do livro. Astronauta flutuando no espaço com fundo escuro e detalhes dourados."
+                    width="200px">
+                <figcaption>Capa do livro Devoradores de Estrelas.</figcaption>
+            </figure>
+
+            <h2 id="enredo">Enredo</h2>
+            <p>Três astronautas são enviados ao espaço em uma missão que visa salvar a Terra da destruição. Dois dos
+                astronautas morrem e apenas um, Ryland Grace, torna-se o responsável por cumprir a missão.</p>
+            <p>Após despertar de um coma induzido, Grace recobra aos poucos a memória e se lembra do motivo de estar na
+                espaçonave.</p>
+            <p>A partir daí, Grace precisa usar sua inteligência e engenhosidade para interagir com um alienígena e
+                tentar completar sua missão.</p>
+
+            <h2 id="personagens">Personagens Principais</h2>
+            <ul class="personagem-list">
+                <li><strong>Ryland Grace:</strong> O protagonista. É um ex-cientista e professor de ciências
+                    que acorda
+                    sozinho em uma espaçonave — sem
+                    memória e com uma missão desesperada: salvar a humanidade da extinção. Inteligente, sarcástico e
+                    extremamente engenhoso, Grace é o típico herói relutante, com uma mente brilhante e coração grande.
+                    Ao
+                    longo da história, ele recupera suas lembranças e assume seu papel de herói interplanetário.
+                </li>
+                <li><strong>Rocky:</strong> Um alienígena do planeta Erid. Rocky é uma das grandes surpresas do livro.
+                    Ele pertence a uma espécie
+                    muito diferente da humana, mas é altamente inteligente e curioso. Grace e Rocky desenvolvem uma
+                    amizade
+                    profunda e improvável, superando barreiras linguísticas e biológicas. Sua parceria é o coração
+                    emocional
+                    da história.</li>
+                <li><strong>Stratt:</strong> Uma poderosa figura governamental que lidera os esforços globais para
+                    salvar a Terra. Ela é prática,
+                    implacável e toma decisões difíceis sem hesitar — como recrutar Grace à força para a missão. Apesar
+                    de
+                    parecer fria, ela carrega o peso de toda a humanidade nos ombros.</li>
+            </ul>
+
+            <h2 id="recep">Recepção</h2>
+            <h3 id="bill">Bill Gates</h3>
+            <p>O empresário <a href="https://pt.wikipedia.org/wiki/Bill_Gates" target="_blank">Bill Gates</a>, que todos
+                os anos publica uma coletânea de recomendações de livros para as
+                festas de fim de ano, incluiu na sua lista de 2021 <i>Project Hail Mary</i> como um dos 5 livros
+                recomendados
+                para aquele ano.</p>
+            <h3 id="audie">Audie Awards</h3>
+            <p>A versão em <a href="https://pt.wikipedia.org/wiki/Audiolivro" target="_blank">audiolivro</a> de
+                <i>Project Hail Mary</i> recebeu dois prêmios no <i>Audie Awards</i>, cerimônia
+                conhecida
+                como o 'Oscar' da indústria americana de audiolivros. O audiolivro, que contou com a narração de Ray
+                Porter, ganhou nas categorias "Ficção Científica" e "Audiolivro do Ano"
+            </p>
+
+            <h2 id="curiosidades">Curiosidades</h2>
+            <p>Temos um filme em produção. O longa estrelado por <a href="https://pt.wikipedia.org/wiki/Ryan_Gosling"
+                    target="_blank">Ryan Gosling</a> e <a href="https://pt.wikipedia.org/wiki/Sandra_H%C3%BCller"
+                    target="_blank">Sandra Hüller</a> estreia em
+                cinemas
+                brasileiros no dia <strong>20 de março de 2026</strong>. Confira o trailer abaixo:</p>
+            <div class="video-center">
+                <p>Trailer do filme Devoradores de
+                    Estrelas.</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/uI1KofmBtYI?si=FzdPBygkGqz8aDvC"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <!--Menu de navegação direito-->
+        <aside class="anchors">
             <h2>Neste Artigo</h2>
-            <ul>
-                <li><a href="#">Âncoras</a></li>
-            </ul>
-        </div>
-    </div>
+            <nav aria-label="Navegação interna deste artigo">
+                <ul class="menu">
+                    <li><a href="#devoradores">Devoradores de Estrelas</a></li>
+                    <li><a href="#capa">Capa do Livro</a></li>
+                    <li><a href="#enredo">Enredo</a></li>
+                    <li><a href="#personagens">Personagens Principais</a></li>
+                    <li><a href="#recep">Recepção</a></li>
+                    <li><a href="#bill">Bill Gates</a></li>
+                    <li><a href="#audie">Audie Awards</a></li>
+                    <li><a href="#curiosidades">Curiosidades</a></li>
+                    <li><a href="#referencia">Referências</a></li>
+                </ul>
+            </nav>
+        </aside>
+    </main>
 
-    <div class="footer">
-
-    </div>
+    <footer class="footer">
+        <h3 class="ref" id="referencia">Referências</h3>
+        <ol>
+            <li><a href="https://www.companhiadasletras.com.br/livro/9788556511218/devoradores-de-estrelas"
+                    target="_blank">Devoradores
+                    de Estrelas</a>. Companhia das Letras. Consultado em 2 de julho de 2022</li>
+            <li><a href="https://www.terra.com.br/byte/bill-gates-revela-sua-tradicional-lista-de-livros-de-2021,191cf49e6bd4aa844a72c07abadb527529feydq8.html"
+                    target="_blank">Bill
+                    Gates revela sua tradicional lista de livros de 2021</a>. Terra. 26 de novembro de 2021. Consultado
+                em 2 de julho de 2022</li>
+            <li> Calgaro, André (11 de março de 2022). <a
+                    href="https://www.publishnews.com.br/materias/2022/03/11/as-tendencias-no-audie-awards-2022"
+                    target="_blank">As tendências no Audie Awards 2022</a>. Publish News. Consultado em 2 de julho de
+                2022</li>
+        </ol>
+    </footer>
 </body>
+
 </html>
