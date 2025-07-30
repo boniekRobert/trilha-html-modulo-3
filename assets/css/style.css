@@ -73,10 +73,12 @@ blockquote {
     margin: 25px;
 }
 
+/*Listas de personagens*/
 ul.personagem-list li {
     margin-bottom: 10px;
 }
 
+/*Formatação para menus*/
 .sidebar,
 .anchors {
     background-color: #f5f5f5;
